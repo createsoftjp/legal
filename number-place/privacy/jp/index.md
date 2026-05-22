@@ -1,3 +1,25 @@
+---
+layout: default
+title: "プライバシーポリシー"
+---
+
+<style>
+  /* 1. リポジトリ名が入る空のリンク(h1)を消す */
+  h1:first-child:not(#プライバシーポリシー) {
+    display: none !important;
+  }
+
+  /* 2. ページ全体の大きな上の余白を削る */
+  .container-lg {
+    margin-top: 0 !important;
+    padding-top: 20px !important;
+  }
+
+  /* 3. 本文の上の余白を調整 */
+  .markdown-body h1:first-of-type {
+    margin-top: 0 !important;
+  }
+</style>
 # プライバシーポリシー
 
 CreateSoft（以下、「当開発者」といいます）が提供するスマートフォン用アプリケーション「ナンプレスキャン」（以下、「本アプリ」といいます）における、利用者情報の取り扱い方針を以下の通り定めます。
